@@ -6,16 +6,16 @@ public class Main {
 //        int miles = service.calculate(price);
 //        System.out.println(miles);
 
-        int CostIsCorrect = service.calculate(12500_50);
-        System.out.println(CostIsCorrect);
+        int costIsCorrect = service.calculate(12500_50);
+        System.out.println(costIsCorrect);
 
-        int CostIsUnder0 = service.calculate(-12500_50);
-        System.out.println(CostIsUnder0);
+        int costIsUnder0 = service.calculate(-12500_50);
+        System.out.println(costIsUnder0);
 
-        int CostIsLessThan20 = service.calculate(1_00);
-        System.out.println(CostIsLessThan20);
+        int costIsLessThan20 = service.calculate(1_00);
+        System.out.println(costIsLessThan20);
 
-        int CostIs20 = service.calculate(20_00);
-        System.out.println(CostIs20);
+        int costIs20 = service.calculate(20_00);
+        System.out.println(costIs20);
     }
 }
